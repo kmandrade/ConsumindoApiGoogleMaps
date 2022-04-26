@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*Serve para que nao haja scrollbar*/
+html,body{
+    height: 100%;
+    overflow-y: hidden; 
+    overflow-x: hidden;
+    background-color: rgb(230, 248, 255);
+    
+}
+header{
+    height: 200px;
+    padding: 40px 0;
+
+}
+
+
+.center{
+    
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+.img{
+    max-width:150px;
+    max-height:100px;
+    width: 80px;
+    height: 80px;
+    
+}
+.logo{
+    width: 50%;
+}
+
+.token{
+    position: relative;
+    left: 35%;
+}
+.token td{
+font-size: 20px;
+
+}
+.token td input{
+    font-size: 20px;
+
+    
+}
+button{
+    border: 0;
+    background-color: rgb(79, 88, 216);
+    color: white;
+    border-radius: 8px;
+    width: 90px;
+    height: 40px;
+    cursor: pointer;
+    font-size: 16px;
+    left: 50%;
+}
+
+
+.home{
+    color: rgb(0, 134, 223);
+    font-size: 18px;
+    position: fixed;
+    left: 76px;
+    bottom: 540px;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.titulo h1{
+    color: rgb(0, 134, 223);
+    position: fixed;
+    left: 37%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
